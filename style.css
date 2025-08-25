@@ -1,0 +1,59 @@
+.body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 680px;
+}
+
+.button {
+    padding: 20px;
+    padding-top: 30px;
+    background-color: #111827;
+    border-radius: 10px;
+}
+
+.button button {
+    width: 70px;
+    height: 70px;
+    margin: 1px;
+    background-color: #22C55E;
+    font-size: large;
+    border-radius: 10px;
+}
+
+.buttondown {
+    display: inline;
+}
+
+.equel {
+    float: right;
+    margin-right: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.equel button {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-right: 8px;
+}
+
+
+.input {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: aliceblue;
+}
+
+.input input {
+    width: 89%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #374151;
+    color: #fff;
+}
+

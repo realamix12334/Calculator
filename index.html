@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+<body>
+    <div class="body">
+        <div class="button">
+            <div class="input">
+                <input type="text" id="display" disabled>
+            </div>
+            <div class="buttonup">
+                <button onclick="Backspace()">Back</button>
+                <button onclick="Add('%')">%</button>
+                <button onclick="Clear()">C</button>
+                <button onclick="Add('/')">/</button>
+            </div>
+            <div>
+                <button onclick="Add('7')">7</button>
+                <button onclick="Add('8')">8</button>
+                <button onclick="Add('9')">9</button>
+                <button onclick="Add('*')">*</button>
+            </div>
+            <div>
+                <button onclick="Add('4')">4</button>
+                <button onclick="Add('5')">5</button>
+                <button onclick="Add('6')">6</button>
+                <button onclick="Add('-')">-</button>
+            </div>
+            <div>
+                <button onclick="Add('1')">1</button>
+                <button onclick="Add('2')">2</button>
+                <button onclick="Add('3')">3</button>
+                <button onclick="Add('+')">+</button>
+            </div>
+            <div class="buttondown">
+                <button onclick="Add('0')">0</button>
+                <button onclick="Add('.')">.</button>
+            </div>
+            <div class="equel">
+                <button onclick="Calculator()">=</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
