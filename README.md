@@ -21,4 +21,4 @@ This project is great for beginners who want to practice front-end development a
 
 ## Screenshot
 
-![Calculator Screenshot](assets/Simple%20Calculator.png)
+![Calculator](assets/Simple%20Calculator.png)
