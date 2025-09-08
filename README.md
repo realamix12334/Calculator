@@ -10,17 +10,15 @@ This project is great for beginners who want to practice front-end development a
 
 - Clean dark theme with green buttons  
 - Basic arithmetic operations:  
-  + Addition  
-  - Subtraction  
-  * Multiplication  
-  / Division  
+  ➕ Addition  
+  ➖ Subtraction  
+  ✖️ Multiplication  
+  ➗ Division  
   % Percentage  
 - **C** button to clear the display  
 - **Backspace** button to delete the last input  
-- Quick calculation with the `=` button 
-
+- Quick calculation with the `=` button  
 
 ## Screenshot
 
-
-![Calculator Screenshot](Simple Calculator.png)
+![Calculator Screenshot](assets/Simple%20Calculator.png)

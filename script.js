@@ -2,11 +2,12 @@ let display = document.getElementById("display");
 
 
 function Add (value) {
-    display.value += value;
+    display.value += value
 }
 
+
 function Clear () {
-    display.value = "";
+    display.value = ""
 }
 
 function Backspace () {
@@ -15,9 +16,8 @@ function Backspace () {
 
 function Calculator () {
     try {
-        display.value = eval(display.value);
-    } catch {
-        display.value = "error"
+        display.value = eval(display.value)
+    } catch (error) {
+        display.value = "Error"
     }
 }
-
